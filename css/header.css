@@ -1,0 +1,25 @@
+.header {
+    background-color: var(--primary-color);
+    color: var(--main-text-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__links {
+    align-self: center;
+    color: var(--secondary-color);
+    display: flex;
+    font-weight: 300;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.header__links-text {
+    margin: 0 1rem;
+}

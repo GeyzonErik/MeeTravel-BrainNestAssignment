@@ -1,0 +1,67 @@
+.signup__section {
+    background-color: var(--primary-color);
+    color: var(--main-text-color);
+    justify-content: flex-start;
+    display: flex;
+    height: 99.99vh;
+}
+
+.signup__background-image {
+    filter: opacity(70%);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70vw;
+}
+
+.signup__form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5rem;
+}
+
+.signUp__logo {
+    font-size: 36px;
+    font-weight: medium;
+}
+
+.signUp__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.signup__options {
+    text-align: center;
+}
+
+.signup__options__selector {
+    margin: 1rem;
+    padding: 0.7rem 0;
+}
+
+.signup__options__item {
+    align-items: center;
+    background-color: var(--button-information-color);
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    margin: 2rem;
+    padding: 1rem 2rem;
+}
+
+.signup__options__image {
+    margin-right: 1rem;
+    width: 48px;
+}
+
+.signUp__question {
+    font-size: 14px;
+}
+
+.signUp__question a {
+    color: var(--button-information-color);
+}

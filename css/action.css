@@ -1,0 +1,45 @@
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+.action__content {
+    background-color: var(--button-information-color);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20rem;
+    padding: 3rem 10rem;
+}
+
+.action__texts {
+    color: var(--main-text-color);
+}
+
+.action__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action__sub-title {
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.action__button {
+    align-items: center;
+    border: 2px solid var(--main-text-color);
+    border-radius: 12px;
+    color: var(--main-text-color);
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 4rem;
+}
+
+.action__button:active {
+    transform: scale(0.95)
+}

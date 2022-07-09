@@ -1,0 +1,92 @@
+@media screen and (max-width: 767px) {
+    /* header */    
+    .header {
+        justify-content: space-between;
+    }
+
+    .header__links {
+        font-size: 14px;
+        justify-content: flex-end;
+        margin: 0 1rem;
+    }
+
+    .header__links-text {
+        margin: 0 1rem;
+    }
+
+    /* Hero */
+
+    .hero {
+        background-color: var(--primary-color);
+        display: flex;
+        height: 90vh;
+        justify-content: space-between;
+    }
+
+    .hero__texts {
+        margin: 12rem 0.7rem;
+        width: 94vw;
+    }
+
+    .hero__image {
+        display: none;
+    }
+
+    /* posts */
+
+    .posts {
+        height: 80vh;
+    }
+
+    .posts__images-section {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+
+    .posts__image-container {
+        width: 70vw;
+    }
+
+    .posts__image-container:nth-child(n+2) {
+        display: none;
+    }
+
+    /* Quote */
+    .quote__section {
+        padding: 0;
+    }
+
+    .quote__text {
+        font-size: 18px;
+        font-weight: 300;
+        margin: 2rem 1rem;
+    }
+
+    .quote__author {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 2rem 3rem;
+    }
+
+    /* action */
+    .action__content {
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 2rem;
+        padding: 3rem;
+    }
+
+    .action__title {
+        margin: 1rem 0;
+    }
+
+    .action__sub-title {
+        margin: 1rem 0;
+    }
+
+    .action__button {
+        padding: 0.7rem;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+    .signup__background {
+        display: none;
+    }
+
+    .signup__form {
+        width: 100vw;
+    }
+
+    .signup__options__item {
+        padding: 1rem 2.6rem;
+    }
+     
+
+    .signup__options__item p {
+        display: none;
+    }
+
+}

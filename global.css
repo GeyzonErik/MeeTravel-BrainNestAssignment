@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #1F2937; /* Information Text, hero and footer background */
+    --main-text-color: #F9FAF8; /* Header Logo Text, Hero h1 Text */
+    --secondary-color: #E5E7EB; /* Hero Secondary Text, Link Text, [Quote] Section Backgroun */
+    --button-information-color: #3882F6; /* Button color, [call to aciton] background color*/
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
